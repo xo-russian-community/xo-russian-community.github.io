@@ -1,0 +1,31 @@
+# main links
+main:
+  - title: "Crossover.com"
+    url: https://crossover.com
+
+pages_toc:
+  - title: "Что такое Crossover"
+    url: /_pages/what-is-crossover/
+
+  - title: "Позиции"
+    url: /_pages/jobs/
+
+  - title: "Плюсы"
+    children:
+      - title: "Деньги"
+        url: /_pages/benefits-money/
+      - title: "Фитнес"
+        url: /_pages/benefits-fitness/
+      # - title: "ДМС"
+        # url: /_pages/benefits-insurance/
+      # - title: "Коворкинг"
+        # url: /_pages/benefits-coworking/
+      # - title: "Английский"
+        # url: /_pages/benefits-english/
+
+  - title: "Минусы"
+    children:
+      - title: "Высокая планка"
+        url: /_pages/tradeoffs-high-bar/
+      - title: "40 часов"
+        url: /_pages/tradeoffs-40-hours/
