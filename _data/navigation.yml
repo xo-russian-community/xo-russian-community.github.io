@@ -1,7 +1,15 @@
 # ссылки в заголовке, т.е. основное меню
 main:
-  - title: "Crossover.com"
-    url: https://crossover.com
+  - title: "Вакансии"
+    url: https://app.crossover.com/x/marketplace/available-jobs
+  - title: "Турниры"
+    url: https://crossoverforwork.eventbrite.com
+  - title: "WorkSmart guidelines"
+    url: https://app.crossover.com/x/resources/guidelines
+  - title: "Status"
+    url: http://status.crossover.com
+  - title: "Support"
+    url: https://support.crossover.com
 
 # оглавление страниц сайта
 pages_toc:
