@@ -37,7 +37,7 @@ pages_toc:
   - title: "Работа и жизнь"
     children:
       - title: "Рабочее место"
-        url: "/_pages/work-and-life/workplace/
+        url: /_pages/work-and-life/workplace/
       - title: "Как работать и отдыхать"
         url: /_pages/work-and-life/balance/
       - title: "Где отдыхать"
