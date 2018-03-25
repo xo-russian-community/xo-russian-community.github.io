@@ -1,31 +1,47 @@
-# main links
+# ссылки в заголовке, т.е. основное меню
 main:
   - title: "Crossover.com"
     url: https://crossover.com
 
+# оглавление страниц сайта
 pages_toc:
   - title: "Что такое Crossover"
     url: /_pages/what-is-crossover/
 
-  - title: "Позиции"
-    url: /_pages/jobs/
-
-  - title: "Плюсы"
+  - title: "Соискателям"
     children:
+      - title: "Позиции"
+        url: /_pages/applicants/jobs/
+      - title: "Плюсы"
+        url: /_pages/applicants/benefits/
+      - title: "Минусы"
+        url: /_pages/applicants/tradeoffs/
+      - title: "Процесс найма"
+        url: /_pages/applicants/hiring-process/
+      - title: "Нужно больше информации"
+        url: /_pages/applicants/more-info/        
+
+  - title: "Контракторам"
+    children:
+      - title: "Начало"
+        url: /_pages/contractors/start/
       - title: "Деньги"
-        url: /_pages/benefits-money/
-      - title: "Фитнес"
-        url: /_pages/benefits-fitness/
-      # - title: "ДМС"
-        # url: /_pages/benefits-insurance/
-      # - title: "Коворкинг"
-        # url: /_pages/benefits-coworking/
-      # - title: "Английский"
-        # url: /_pages/benefits-english/
+        url: /_pages/contractors/money/
+      - title: "Выбор банка"
+        url: /_pages/contractors/banks/
+      - title: "ИП"
+        url: /_pages/contractors/ip/
+      - title: "Работа"
+        url: /_pages/contractors/work/
 
-  - title: "Минусы"
+  - title: "Работа и жизнь"
     children:
-      - title: "Высокая планка"
-        url: /_pages/tradeoffs-high-bar/
-      - title: "40 часов"
-        url: /_pages/tradeoffs-40-hours/
+      - title: "Рабочее место"
+        url: "/_pages/work-and-life/workplace/
+      - title: "Как работать и отдыхать"
+        url: /_pages/work-and-life/balance/
+      - title: "Где отдыхать"
+        url: /_pages/work-and-life/rest/
+
+  - title: "О сайте и сообществе"
+    url: "/_pages/about/"
