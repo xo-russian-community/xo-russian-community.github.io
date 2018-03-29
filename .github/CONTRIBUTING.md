@@ -43,4 +43,29 @@
     ---
     далее идёт содержимое файла в формате markdown
     ```
- * в файл [navigation.yml](https://github.com/xo-russian-community/xo-russian-community.github.io/blob/master/_data/navigation.yml) добавить ссылку на эту страницу.
+ * в файл [navigation.yml](https://github.com/xo-russian-community/xo-russian-community.github.io/blob/master/_data/navigation.yml) добавить ссылку на эту страницу по примеру уже имеющихся.
+ 
+## Тестирование изменений
+
+Можно локально запустить сайт и проверить, как будут работать ваши изменения.
+
+Проще всего - с помощью docker. Из корневого каталога репозитория запускаете:
+
+```bash
+docker run --name jekyll-xo -d -v "${PWD}:/srv/jekyll/" -p 4000:4000 jekyll/jekyll:stable /bin/bash -c "bundle update; jekyll serve --incremental"
+```
+
+Он сначала поставит все зависимости, потом сгенерирует статический контент для сайта из исходников и запустит web-сервер на порту 4000. 
+Это займёт около 4 минут времени и 55Мб трафика.
+
+Посмотреть, что там происходит, можно с помощью команды
+```bash
+docker logs --follow jekyll-xo
+```
+
+На Windows почему-то не работает авторегенерация сайта при обновлении исходных файлов. Обходится путём рестарта контейнера после внесения изменений:
+
+```bash
+docker restart jekyll-xo
+```
+Рестарт занимает полторы-две минуты.
