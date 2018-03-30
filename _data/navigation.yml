@@ -18,7 +18,7 @@ pages_toc:
 
   - title: "Соискателям"
     children:
-      - title: "Позиции"
+      - title: "Вакансии"
         url: /_pages/applicants/jobs/
       - title: "Плюсы"
         url: /_pages/applicants/benefits/
