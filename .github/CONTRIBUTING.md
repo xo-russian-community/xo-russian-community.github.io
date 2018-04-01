@@ -21,7 +21,8 @@
 #### Простой способ
 
 Находите [нужный файлик в репозитории](https://github.com/xo-russian-community/xo-russian-community.github.io/tree/master/_pages), и прям там его редактируете [по шагам, как описано](https://help.github.com/articles/editing-files-in-another-user-s-repository/). 
-Результат реально можно сразу посмотреть, нажав на вкладочку "Preview changes".
+Результат реально можно сразу посмотреть, нажав на вкладочку "Preview changes". 
+[Синтаксис движка трансформации текста](https://kramdown.gettalong.org/syntax.html) немного отличается от того, что показывает GitHub, но в большинстве простых случаев всё одинаково.
 
 В конце процесса GitHub предложит закоммитить, выберите опцию "создать fork и pull request в master".
 
