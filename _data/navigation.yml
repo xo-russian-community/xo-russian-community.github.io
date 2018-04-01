@@ -24,6 +24,8 @@ pages_toc:
         url: /_pages/applicants/benefits/
       - title: "Минусы"
         url: /_pages/applicants/tradeoffs/
+      - title: "Фрилансерам"
+        url: /_pages/applicants/for-freelancers/
       - title: "Процесс найма"
         url: /_pages/applicants/hiring-process/
       - title: "Нужно больше информации"
