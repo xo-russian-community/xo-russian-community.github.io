@@ -28,17 +28,17 @@ $type-size-6 : 0.875em;    // left ToC text
 @import "minimal-mistakes"; // main partials
 
 html {
-  font-size: 14px; // default is 16px
+  font-size: 12px; // default is 16px
  
   @include breakpoint($medium) {
-    font-size: 16px; // default is 18px
+    font-size: 14px; // default is 18px
   }
  
   @include breakpoint($large) {
-    font-size: 18px; // default is 20 px
+    font-size: 16px; // default is 20 px
   }
  
   @include breakpoint($x-large) {
-    font-size: 20px; // default is 22px
+    font-size: 18px; // default is 22px
   }
 }
