@@ -14,44 +14,44 @@ main:
 # оглавление страниц сайта
 pages_toc:
   - title: "Что такое Crossover"
-    url: /_pages/what-is-crossover/
+    url: /pages/what-is-crossover/
 
   - title: "Соискателям"
     children:
       - title: "Вакансии"
-        url: /_pages/applicants/jobs/
+        url: /pages/applicants/jobs/
       - title: "Плюсы"
-        url: /_pages/applicants/benefits/
+        url: /pages/applicants/benefits/
       - title: "Минусы"
-        url: /_pages/applicants/tradeoffs/
+        url: /pages/applicants/tradeoffs/
       - title: "Фрилансерам"
-        url: /_pages/applicants/for-freelancers/
+        url: /pages/applicants/for-freelancers/
       - title: "Процесс найма"
-        url: /_pages/applicants/hiring-process/
+        url: /pages/applicants/hiring-process/
       - title: "Нужно больше информации"
-        url: /_pages/applicants/more-info/        
+        url: /pages/applicants/more-info/        
 
   - title: "Контракторам"
     children:
       - title: "Начало"
-        url: /_pages/contractors/start/
+        url: /pages/contractors/start/
       - title: "Деньги"
-        url: /_pages/contractors/money/
+        url: /pages/contractors/money/
       - title: "Выбор банка"
-        url: /_pages/contractors/banks/
+        url: /pages/contractors/banks/
       - title: "ИП"
-        url: /_pages/contractors/ip/
+        url: /pages/contractors/ip/
       - title: "Работа"
-        url: /_pages/contractors/work/
+        url: /pages/contractors/work/
 
   - title: "Работа и жизнь"
     children:
       - title: "Рабочее место"
-        url: /_pages/work-and-life/workplace/
+        url: /pages/work-and-life/workplace/
       - title: "Как работать и отдыхать"
-        url: /_pages/work-and-life/balance/
+        url: /pages/work-and-life/balance/
       - title: "Где отдыхать"
-        url: /_pages/work-and-life/rest/
+        url: /pages/work-and-life/rest/
 
   - title: "О сайте и сообществе"
-    url: "/_pages/about/"
+    url: "/pages/about/"
