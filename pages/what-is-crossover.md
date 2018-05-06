@@ -29,4 +29,3 @@ toc: false
 
 Но это всё был marketing bullshit :smile: 
 Не переключайте канал, далее [о вакансиях...](../applicants/jobs/)
-
