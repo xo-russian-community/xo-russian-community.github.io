@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ru-RU"
 title                    : "XO Russian Community"
-title_separator          : "|"
+title_separator          : "-" # reason over the vertical pipe is taken from here: https://stackoverflow.com/a/1184353/1875339
 name                     : "all the people in Russian Crossover community"
 description              : "Crossover Russian Community site."
 url                      : "https://xo-russian-community.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
