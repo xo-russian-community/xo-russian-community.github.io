@@ -3,6 +3,8 @@ title: Выбор банка
 toc: true
 ---
 
+TODO введение
+
 ## Точка
 
 TODO
